@@ -6,7 +6,7 @@ import numpy as np
 import io
 import base64
 
-app = Flask(__name__)
+app = Flask(_name_)
 
 # Function to remove background from an input image
 def remove_background(input_image):
@@ -63,5 +63,5 @@ def process():
 def index():
     return render_template('index.html')
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     app.run(debug=True)
