@@ -1,2 +1,5 @@
 Flask
 Gunicorn
+opencv-python
+opencv-python-headless
+rembg
