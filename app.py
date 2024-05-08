@@ -63,5 +63,5 @@ def process():
 def index():
     return render_template('index.html')
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.run(debug=True, port=8001)
